@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e2b1a99a531fc943b92b970e8643395, type: 3}
+  m_Name: GreenBrick
+  m_EditorClassIdentifier: 
+  brickType: 0
+  hitAudio: {fileID: 8300000, guid: 4812b7fa613017448a3badbdf42cced5, type: 3}
+  textures:
+  - {fileID: -5160660819957252609, guid: 03469d6c4b3fe964cb4ec044bf3775d4, type: 3}
+  - {fileID: -7225512925871877664, guid: 03469d6c4b3fe964cb4ec044bf3775d4, type: 3}
+  - {fileID: 556530189025366737, guid: 03469d6c4b3fe964cb4ec044bf3775d4, type: 3}
+  - {fileID: -3626552937498295834, guid: 03469d6c4b3fe964cb4ec044bf3775d4, type: 3}
+  - {fileID: -2791666833621720718, guid: 03469d6c4b3fe964cb4ec044bf3775d4, type: 3}
+  - {fileID: -4526969275931063505, guid: 03469d6c4b3fe964cb4ec044bf3775d4, type: 3}

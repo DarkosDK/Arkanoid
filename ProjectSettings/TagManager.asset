@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Ball
+  - Platform
+  - Brick
+  - PowerUp
   layers:
   - Default
   - TransparentFX
@@ -40,4 +44,19 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Ball
+    uniqueID: 3737607761
+    locked: 0
+  - name: Platform
+    uniqueID: 3228861941
+    locked: 0
+  - name: Bricks
+    uniqueID: 1792233421
+    locked: 0
+  - name: UI
+    uniqueID: 3424263141
+    locked: 0
+  - name: Effects
+    uniqueID: 300417311
     locked: 0
