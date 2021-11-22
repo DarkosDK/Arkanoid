@@ -36,6 +36,11 @@ public class Brick : MonoBehaviour
         _spriteRenderer = GetComponent<SpriteRenderer>();
         _initHealth = _health;
         
+        
+    }
+
+    private void Start()
+    {
         GameManager.Instance.gameOverEvent.AddListener(RemoveBrick);
     }
 
@@ -143,7 +148,7 @@ public class Brick : MonoBehaviour
         GameManager.Instance.AddPoint(GetPoints());
     }
 
-    private void RemoveBrick()
+    public void RemoveBrick()
     {
         gameObject.SetActive(false);
     }
